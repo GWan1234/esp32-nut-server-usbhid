@@ -1,3 +1,14 @@
+# Project Maintenance Notice
+To those interested, I regret to inform you that this project will likely no longer be maintained.
+ 
+On one hand, my living conditions have improved recently, and I no longer need to use a UPS. Therefore, I have no need to continue using it or developing new features for it.
+ 
+On the other hand, I have realized that some implementations of this program are rather inefficient. A more meaningful approach would be for the program to read the USB HID identifiers related to the UPS device, identify the Report ID associated with the power event options in the identifiers, and automatically poll for data—instead of capturing a specific Report ID in advance and hardcoding it into the demo as it currently does.
+ 
+If you are motivated to continue development based on this project, I suggest you start over following the new approach mentioned above.
+ 
+Lastly, I want to say that this project was originally created and open-sourced just to meet my own small needs. I apologize that I may not be able to satisfy your needs or anyone else’s.
+
 # ESP32-NUT-Server-USBHID
 A demo running on ESP32-S3 to communicate with USB-HID UPS and to be a tiny NUT (Network UPS Tools) Server.
 
